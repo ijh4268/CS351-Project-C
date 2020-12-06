@@ -213,7 +213,7 @@ var FSHADER_SOURCE =
 	'  float e64 = pow(nDotH, float(u_MatlSet[0].shiny));\n' +
  	// Calculate the final color from diffuse reflection and ambient reflection
 //  '	 vec3 emissive = u_Ke;' +
- '	 vec3 emissive = 										u_MatlSet[0].emit;' +
+ '	 vec3 emissive = 										u_MatlSet[0].emit;\n' +
   '  vec3 ambient = u_LampSet[0].ambi * u_MatlSet[0].ambi;\n' +
   '  vec3 diffuse = u_LampSet[0].diff * v_Kd * nDotL;\n' +
   '	 vec3 speculr = u_LampSet[0].spec * u_MatlSet[0].spec * e64;\n' +
