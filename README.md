@@ -10,3 +10,5 @@
 ### 05: Add a unit sphere with Gouraud shading, centered at the origin. Still an issue with depth.
 ### 06: Depth correction fix - REMOVED
 ### 07: Implement Phong lighting complete with specular reflectance and materials.
+### 08: Implement Phong shading in VBObox2 - No changes to shapes yet.
+### 09: Implement user input for changing light source location and colors.
